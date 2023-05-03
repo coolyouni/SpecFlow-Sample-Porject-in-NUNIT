@@ -1,0 +1,10 @@
+image: mcr.microsoft.com/dotnet/sdk:5.0
+
+before_task:
+  - dotnet restore
+
+tasks:
+  - command: dotnet build
+    name: Build
+  - command: dotnet test
+    name: Test
