@@ -1,4 +1,4 @@
-# LambdaTestCertification
+# SPecFlow
 This project uses SpecFlow for writing and running automated tests for LambdaTest website's UI. The codebase includes hooks, drivers, and steps files for executing tests on different browsers and different scenarios.
 
 Installation
